@@ -14,6 +14,21 @@
 		73DFC8B72A0B80F300B8A014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DFC8B62A0B80F300B8A014 /* Assets.xcassets */; };
 		73DFC8BA2A0B80F300B8A014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DFC8B82A0B80F300B8A014 /* LaunchScreen.storyboard */; };
 		73DFC8C42A0B812A00B8A014 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 73DFC8C32A0B812A00B8A014 /* ReactorKit */; };
+		73DFC8C72A0B82E800B8A014 /* LegacyBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8C62A0B82E800B8A014 /* LegacyBaseViewController.swift */; };
+		73DFC8CC2A0B90D600B8A014 /* LegacyFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8CB2A0B90D600B8A014 /* LegacyFeatureViewController.swift */; };
+		73DFC8CF2A0B910F00B8A014 /* LegacyFeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8CE2A0B910F00B8A014 /* LegacyFeatureViewModel.swift */; };
+		73DFC8D12A0B954200B8A014 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8D02A0B954200B8A014 /* BaseViewModel.swift */; };
+		73DFC8D32A0B959700B8A014 /* NewFeatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8D22A0B959700B8A014 /* NewFeatureViewModel.swift */; };
+		73DFC8D62A0B960E00B8A014 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 73DFC8D52A0B960E00B8A014 /* RxCocoa */; };
+		73DFC8D82A0B960E00B8A014 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 73DFC8D72A0B960E00B8A014 /* RxRelay */; };
+		73DFC8DA2A0B960E00B8A014 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 73DFC8D92A0B960E00B8A014 /* RxSwift */; };
+		73DFC8DE2A0B98CC00B8A014 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8DD2A0B98CC00B8A014 /* BaseViewController.swift */; };
+		73DFC8E02A0B999700B8A014 /* BindableBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8DF2A0B999700B8A014 /* BindableBaseViewController.swift */; };
+		73DFC8E42A0B9B6900B8A014 /* FeatureBindableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8E32A0B9B6900B8A014 /* FeatureBindableViewController.swift */; };
+		73DFC8E72A0B9CB600B8A014 /* FeatureReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8E62A0B9CB600B8A014 /* FeatureReactor.swift */; };
+		73DFC8E92A0B9DF200B8A014 /* FeatureReactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8E82A0B9DF200B8A014 /* FeatureReactorView.swift */; };
+		73DFC8ED2A0BCE5700B8A014 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8EC2A0BCE5700B8A014 /* Errors.swift */; };
+		73DFC8F42A0BF6BE00B8A014 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DFC8F32A0BF6BE00B8A014 /* ViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +40,18 @@
 		73DFC8B62A0B80F300B8A014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73DFC8B92A0B80F300B8A014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73DFC8BB2A0B80F300B8A014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DFC8C62A0B82E800B8A014 /* LegacyBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyBaseViewController.swift; sourceTree = "<group>"; };
+		73DFC8CB2A0B90D600B8A014 /* LegacyFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyFeatureViewController.swift; sourceTree = "<group>"; };
+		73DFC8CE2A0B910F00B8A014 /* LegacyFeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyFeatureViewModel.swift; sourceTree = "<group>"; };
+		73DFC8D02A0B954200B8A014 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		73DFC8D22A0B959700B8A014 /* NewFeatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureViewModel.swift; sourceTree = "<group>"; };
+		73DFC8DD2A0B98CC00B8A014 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		73DFC8DF2A0B999700B8A014 /* BindableBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableBaseViewController.swift; sourceTree = "<group>"; };
+		73DFC8E32A0B9B6900B8A014 /* FeatureBindableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureBindableViewController.swift; sourceTree = "<group>"; };
+		73DFC8E62A0B9CB600B8A014 /* FeatureReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureReactor.swift; sourceTree = "<group>"; };
+		73DFC8E82A0B9DF200B8A014 /* FeatureReactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureReactorView.swift; sourceTree = "<group>"; };
+		73DFC8EC2A0BCE5700B8A014 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		73DFC8F32A0BF6BE00B8A014 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DFC8D82A0B960E00B8A014 /* RxRelay in Frameworks */,
+				73DFC8D62A0B960E00B8A014 /* RxCocoa in Frameworks */,
+				73DFC8DA2A0B960E00B8A014 /* RxSwift in Frameworks */,
 				73DFC8C42A0B812A00B8A014 /* ReactorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +88,10 @@
 		73DFC8AC2A0B80F200B8A014 /* BindableBase */ = {
 			isa = PBXGroup;
 			children = (
+				73DFC8F02A0BD4FE00B8A014 /* Shared */,
 				73DFC8C12A0B810000B8A014 /* Legacy */,
+				73DFC8EF2A0BD06A00B8A014 /* New */,
+				73DFC8EE2A0BCEBC00B8A014 /* VIewModelType */,
 				73DFC8AD2A0B80F200B8A014 /* AppDelegate.swift */,
 				73DFC8AF2A0B80F200B8A014 /* SceneDelegate.swift */,
 				73DFC8B12A0B80F200B8A014 /* ViewController.swift */,
@@ -73,8 +106,65 @@
 		73DFC8C12A0B810000B8A014 /* Legacy */ = {
 			isa = PBXGroup;
 			children = (
+				73DFC8F12A0BD59500B8A014 /* Base */,
+				73DFC8CB2A0B90D600B8A014 /* LegacyFeatureViewController.swift */,
+				73DFC8CE2A0B910F00B8A014 /* LegacyFeatureViewModel.swift */,
 			);
 			path = Legacy;
+			sourceTree = "<group>";
+		};
+		73DFC8E52A0B9CAF00B8A014 /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8E62A0B9CB600B8A014 /* FeatureReactor.swift */,
+				73DFC8E82A0B9DF200B8A014 /* FeatureReactorView.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		73DFC8EE2A0BCEBC00B8A014 /* VIewModelType */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8F32A0BF6BE00B8A014 /* ViewModelType.swift */,
+			);
+			path = VIewModelType;
+			sourceTree = "<group>";
+		};
+		73DFC8EF2A0BD06A00B8A014 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8F22A0BD62500B8A014 /* BaseVC */,
+				73DFC8E32A0B9B6900B8A014 /* FeatureBindableViewController.swift */,
+				73DFC8D22A0B959700B8A014 /* NewFeatureViewModel.swift */,
+				73DFC8E52A0B9CAF00B8A014 /* Reactor */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		73DFC8F02A0BD4FE00B8A014 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8D02A0B954200B8A014 /* BaseViewModel.swift */,
+				73DFC8EC2A0BCE5700B8A014 /* Errors.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		73DFC8F12A0BD59500B8A014 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8C62A0B82E800B8A014 /* LegacyBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		73DFC8F22A0BD62500B8A014 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				73DFC8DD2A0B98CC00B8A014 /* BaseViewController.swift */,
+				73DFC8DF2A0B999700B8A014 /* BindableBaseViewController.swift */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +185,9 @@
 			name = BindableBase;
 			packageProductDependencies = (
 				73DFC8C32A0B812A00B8A014 /* ReactorKit */,
+				73DFC8D52A0B960E00B8A014 /* RxCocoa */,
+				73DFC8D72A0B960E00B8A014 /* RxRelay */,
+				73DFC8D92A0B960E00B8A014 /* RxSwift */,
 			);
 			productName = BindableBase;
 			productReference = 73DFC8AA2A0B80F200B8A014 /* BindableBase.app */;
@@ -126,6 +219,7 @@
 			mainGroup = 73DFC8A12A0B80F200B8A014;
 			packageReferences = (
 				73DFC8C22A0B812A00B8A014 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				73DFC8D42A0B960E00B8A014 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 73DFC8AB2A0B80F200B8A014 /* Products */;
 			projectDirPath = "";
@@ -154,9 +248,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DFC8E02A0B999700B8A014 /* BindableBaseViewController.swift in Sources */,
+				73DFC8C72A0B82E800B8A014 /* LegacyBaseViewController.swift in Sources */,
+				73DFC8D32A0B959700B8A014 /* NewFeatureViewModel.swift in Sources */,
+				73DFC8DE2A0B98CC00B8A014 /* BaseViewController.swift in Sources */,
+				73DFC8E42A0B9B6900B8A014 /* FeatureBindableViewController.swift in Sources */,
+				73DFC8CF2A0B910F00B8A014 /* LegacyFeatureViewModel.swift in Sources */,
 				73DFC8B22A0B80F200B8A014 /* ViewController.swift in Sources */,
 				73DFC8AE2A0B80F200B8A014 /* AppDelegate.swift in Sources */,
+				73DFC8E72A0B9CB600B8A014 /* FeatureReactor.swift in Sources */,
+				73DFC8E92A0B9DF200B8A014 /* FeatureReactorView.swift in Sources */,
+				73DFC8D12A0B954200B8A014 /* BaseViewModel.swift in Sources */,
+				73DFC8ED2A0BCE5700B8A014 /* Errors.swift in Sources */,
+				73DFC8CC2A0B90D600B8A014 /* LegacyFeatureViewController.swift in Sources */,
 				73DFC8B02A0B80F200B8A014 /* SceneDelegate.swift in Sources */,
+				73DFC8F42A0BF6BE00B8A014 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +488,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		73DFC8D42A0B960E00B8A014 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -389,6 +503,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 73DFC8C22A0B812A00B8A014 /* XCRemoteSwiftPackageReference "ReactorKit" */;
 			productName = ReactorKit;
+		};
+		73DFC8D52A0B960E00B8A014 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73DFC8D42A0B960E00B8A014 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		73DFC8D72A0B960E00B8A014 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73DFC8D42A0B960E00B8A014 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		73DFC8D92A0B960E00B8A014 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 73DFC8D42A0B960E00B8A014 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
